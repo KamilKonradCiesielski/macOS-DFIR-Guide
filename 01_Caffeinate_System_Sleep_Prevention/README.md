@@ -49,4 +49,4 @@ caffeinate -dis -w <PID>
 * To stop the process and allow the system to sleep normally, use Ctrl + C in the terminal window.
 
 # ⚠️ Warning!
-* A Running caffeinate leaves traces in system logs (e.g., powertop, pmset). Always document the exact time and command used in your forensic report. By default, caffeinate may fail if the laptop lid is closed, unless the Mac is connected to both power and an external display.Never close the laptop lid during live forensics or imaging.
+* A Running caffeinate leaves traces in system logs (e.g., powertop, pmset). Always document the exact time and command used in your forensic report. By default, caffeinate may fail if the laptop lid is closed, unless the Mac is connected to both power and an external display. Never close the laptop lid during live forensics or imaging.
