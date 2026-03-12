@@ -50,9 +50,3 @@ caffeinate -dis -w <PID>
 
 # ⚠️ Warning!
 * A Running caffeinate leaves traces in system logs (e.g., powertop, pmset). Always document the exact time and command used in your forensic report. By default, caffeinate may fail if the laptop lid is closed, unless the Mac is connected to both power and an external display.Never close the laptop lid during live forensics or imaging.
-
-# ⚠️ DFIR Best Practices
-
-* **Evidence Integrity:** Always document the exact time and parameters of tools used (like `caffeinate`), as they modify system logs.
-* **Live vs. Offline:** Certain artifacts (e.g., Keychain secrets) are only accessible while the system is "Live" and the user is authenticated.
-* **SIP (System Integrity Protection):** Understand the limitations imposed by SIP when attempting to access protected system locations.
